@@ -8,6 +8,9 @@ namespace SweetTreatsStore.Model
 {
     public class CourierModel
     {
+        /// <summary>
+        /// Employee Id
+        /// </summary>
         public int EmpID { get; set; }
         public int cId { get; set; }
         public string name { get; set; }
