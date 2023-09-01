@@ -15,5 +15,6 @@ namespace SweetTreatsStore.Model
         public int deliveryRange { get; set; }
         public double charges { get; set; }
         public bool hasRefrigirated { get; set; }
+        public DateTime CreatedBy { get; set; }
     }
 }
