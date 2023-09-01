@@ -16,6 +16,7 @@ namespace SweetTreatsStore.Model
         public double charges { get; set; }
         public bool hasRefrigirated { get; set; }
         public DateTime CreatedBy { get; set; }
+        public DateTime UpdatedBy { get; set; }
         public int TotalAmount { get; set; }
     }
 }
