@@ -8,6 +8,7 @@ namespace SweetTreatsStore.Model
 {
     public class CourierModel
     {
+        public int EmpID { get; set; }
         public int cId { get; set; }
         public string name { get; set; }
         public DateTime workingStartHours { get; set; }
