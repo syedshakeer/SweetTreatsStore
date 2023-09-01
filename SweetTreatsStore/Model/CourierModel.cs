@@ -21,6 +21,7 @@ namespace SweetTreatsStore.Model
         public bool hasRefrigirated { get; set; }
         public DateTime CreatedBy { get; set; }
         public DateTime UpdatedBy { get; set; }
-        public int TotalAmount { get; set; }
+        public int TotalAmount  { get; set; }
+        public int DepositAmount { get; set; }
     }
 }
