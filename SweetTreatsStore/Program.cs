@@ -22,7 +22,7 @@ namespace SweetTreatsStore
             {
                 foreach (var row in obj)
                 {
-                    Console.WriteLine("Employee Name:" + row.name + " " + "Charges:" + row.charges + " " + "Range:" + row.deliveryRange +"miles");
+                    Console.WriteLine("EmployeeName:" + row.name + " " + "Charges:" + row.charges + " " + "Range:" + row.deliveryRange +"miles");
                 }
             }
             Console.ReadLine();
